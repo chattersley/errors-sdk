@@ -1,6 +1,6 @@
 {
-  "name": "@joule-genie/errors-sdk",
-  "version": "0.1.0",
+  "name": "@chattersley/errors-sdk",
+  "version": "0.1.1",
   "description": "Browser SDK for ui-defect-farmer — report errors from admin/web apps.",
   "type": "module",
   "main": "./dist/index.cjs",
@@ -16,6 +16,15 @@
   "files": [
     "dist"
   ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
+    "access": "restricted"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chattersley/ui-defect-farmer.git",
+    "directory": "sdk/js"
+  },
   "scripts": {
     "build": "tsup src/index.ts --format esm,cjs --dts --clean",
     "test": "vitest run",
