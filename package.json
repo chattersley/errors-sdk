@@ -19,22 +19,37 @@
   "scripts": {
     "build": "tsup src/index.ts --format esm,cjs --dts --clean",
     "test": "vitest run",
-    "lint": "eslint src --max-warnings=0"
+    "lint": "eslint src --max-warnings=0",
+    "typecheck": "tsc --noEmit"
   },
   "peerDependencies": {
-    "axios": ">=1.0.0"
+    "axios": ">=1.0.0",
+    "react": ">=18.0.0"
   },
   "peerDependenciesMeta": {
-    "axios": { "optional": true }
+    "axios": {
+      "optional": true
+    },
+    "react": {
+      "optional": true
+    }
   },
   "devDependencies": {
+    "@eslint/js": "^9.39.4",
+    "@testing-library/react": "^16.0.0",
     "@types/node": "^22.0.0",
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
     "@typescript-eslint/eslint-plugin": "^8.0.0",
     "@typescript-eslint/parser": "^8.0.0",
     "axios": "^1.7.0",
     "eslint": "^9.0.0",
+    "jsdom": "^25.0.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
     "tsup": "^8.0.0",
     "typescript": "^5.5.0",
+    "typescript-eslint": "^8.58.2",
     "vitest": "^2.0.0"
   }
 }
