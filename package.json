@@ -18,12 +18,11 @@
   ],
   "publishConfig": {
     "registry": "https://npm.pkg.github.com",
-    "access": "restricted"
+    "access": "public"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/chattersley/ui-defect-farmer.git",
-    "directory": "sdk/js"
+    "url": "https://github.com/chattersley/errors-sdk.git"
   },
   "scripts": {
     "build": "tsup src/index.ts --format esm,cjs --dts --clean",
