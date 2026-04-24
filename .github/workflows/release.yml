@@ -37,8 +37,6 @@ jobs:
           scope: "@chattersley"
       - run: npm ci
       - run: npm run build
-      - name: Sync version with release tag
-        run: npm version --no-git-tag-version "${{ needs.release-please.outputs.version }}"
       - name: Publish to GitHub Packages
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
