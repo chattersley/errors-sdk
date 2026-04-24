@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.3](https://github.com/chattersley/errors-sdk/compare/errors-sdk-v0.1.2...errors-sdk-v0.1.3) (2026-04-24)
+
+
+### Bug Fixes
+
+* **ci:** remove redundant version sync — release-please already bumps package.json ([1aed960](https://github.com/chattersley/errors-sdk/commit/1aed960b0b5a6eddfc50d86fa3960f433992575a))
+
 ## [0.1.2](https://github.com/chattersley/errors-sdk/compare/errors-sdk-v0.1.1...errors-sdk-v0.1.2) (2026-04-24)
 
 
