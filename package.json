@@ -1,6 +1,6 @@
 {
   "name": "@chattersley/ui-defect-farmer-sdk",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Browser SDK for ui-defect-farmer — report errors from admin/web apps.",
   "type": "module",
   "main": "./dist/index.cjs",
